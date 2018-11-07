@@ -12,8 +12,33 @@ public class Pro_och_Fys {
 		return kelvin + -273.15;
  	}
 	
-	public static double fluidPressure(FluidTable fluid, double deep)
+	public static double fluidPressure(Fluids fluid, double deep) {
+	double fluidpressure = fluids.density*9,82*deep;
+	return fluidpressure;
 	
-	return 
+	}
+	
+	public static double PressureUnderWater(double deep) {
+	double PressureUnderWater;
+	return PressureUnderWater = 997*9,82*deep;
+			
+   }
+	
+	public static double kineticEnergy(double mass, double velocity) {
+	double kineticenergy = mass*velocity;
+	return kineticenergy;
+		
+	}
+	
+	public static double potentialEnergy(double mass, double height) {
+	double potentialenergy = mass*height;
+	return potentialenergy;
+		
+	}
+	
+	public static double fallSpeed(double height)
+	
+	
 	
 }
+ 
