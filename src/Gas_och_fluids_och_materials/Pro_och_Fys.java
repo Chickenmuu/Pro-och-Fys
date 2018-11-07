@@ -42,7 +42,17 @@ public class Pro_och_Fys {
 		
 	}
 	
+	public static double delta(double first, double last) {
+	double delta = first - last;
+	return delta;
 	
+	}
+	
+	public static double volumeToMass(Fluids fluid, double volume) {
+	double volumetomass = 	Fluids.WATER.density*1000*volume;
+	return volumetomass;
+		
+	}
 	
 	
 }
